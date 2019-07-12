@@ -4,6 +4,8 @@ App example for use hermes engine for Android.
 
 Hermes is a JavaScript engine optimized for fast start up of React Native apps on Android. It features ahead-of-time static optimization and compact bytecode.
 
+[Doc Hermes](https://facebook.github.io/react-native/docs/hermes)
+
 ![Demo layout](https://github.com/tuantvk/react-native-hermes-example/blob/master/assets/img/app.jpg)
 
 ## Table of Content
