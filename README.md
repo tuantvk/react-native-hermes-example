@@ -6,7 +6,8 @@ Hermes is a JavaScript engine optimized for fast start up of React Native apps o
 
 [Doc Hermes](https://facebook.github.io/react-native/docs/hermes)
 
-![Demo layout](https://github.com/tuantvk/react-native-hermes-example/blob/master/assets/img/app.jpg)
+![Demo layout 1](https://github.com/tuantvk/react-native-hermes-example/blob/master/assets/img/app.jpg)
+![Demo layout 2](https://github.com/tuantvk/react-native-hermes-example/blob/master/assets/img/booking.jpg)
 
 ## Table of Content
 
@@ -39,6 +40,12 @@ cd react-native-hermes-example && npm install
 ```
 $ react-native run-android
 ```
+
+> Note:
+
+If you build android error react-native-gesture-handler in __folder java lib__
+
+Change: **android.support.v4.util.Pools** to **import androidx.core.util.Pools**
 
 Generate the binary:
 * For Android

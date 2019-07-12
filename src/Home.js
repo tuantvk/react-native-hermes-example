@@ -33,7 +33,7 @@ const Home = ({ navigation }) => {
           )}
           <View style={styles.body}>
             <TouchableOpacity
-              activeOpacity={1}
+              activeOpacity={.85}
               onPress={() => navigation.navigate('Booking')}
             >
               <View style={styles.sectionContainer}>
